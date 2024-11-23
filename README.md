@@ -16,34 +16,27 @@ You are required to:
 
 ## Question 2: Heap Sort - Build a Priority Queue for Tasks
 Write a program to manage a task priority queue using a **max heap**. Each task has a name and a priority level. 
+
+Your program should:
 - **Add a Task**: Insert a new task with a specified priority.
 - **Get the Highest Priority Task**: Remove and return the task with the highest priority.
 - **Display Remaining Tasks**: Print all tasks in descending order of priority.
 
-### Key Features:
-- Dynamic task management with a priority system
-- User-friendly interface for adding and retrieving tasks
-
 ## Question 3: Merge K Sorted Arrays Using Min Priority Queue
-Given K sorted arrays, this program merges them into a single sorted array using a **Min Priority Queue**. The process involves:
-- Inserting the first element of each array into the queue.
-- Extracting the smallest element and adding the next element from the corresponding array until all elements are merged.
+You are given K sorted arrays of integers. Write a Python program to merge these arrays into a single sorted array using a **Min Priority Queue**. 
 
-### Key Features:
-- Efficient merging of multiple sorted arrays
-- Utilizes a priority queue for optimal performance
-
+Your program should:
+- Insert the first element of each array into a Min Priority Queue along with the array index and element index.
+- Extract the smallest element from the queue, add it to the result array, and insert the next element from the same array into the queue.
+- Continue this process until all elements from all arrays are merged.
+   
 ## Question 4: Schedule Tasks with Deadlines Using Max Priority Queue
-In this task scheduling program, you are given N tasks, each with a profit and a deadline. The goal is to maximize profit by scheduling tasks effectively using a **Max Priority Queue**.
+You are given N tasks, each with a profit and a deadline. Write a Python program to schedule the tasks such that the maximum profit is achieved, using a  **Max Priority Queue**.
 
-### Key Features:
-- Optimized task scheduling for maximum profit
-- Intuitive handling of deadlines and profits
+You are required to:
+- Schedule each task to be completed within its specified deadline (1-based index).
+- Ensure that only one task can be scheduled at a time.
 
-## Getting Started
-To run the programs, ensure you have Python installed on your machine. Clone this repository and navigate to the respective question files to execute the solutions.
 
-```bash
-git clone https://github.com/yourusername/homework2-datastructures.git
-cd homework2-datastructures
-python question1.py  # Replace with the appropriate question file
+
+
