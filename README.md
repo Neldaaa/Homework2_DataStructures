@@ -1,19 +1,14 @@
 # Homework 2 - Data Structures
 **Author: Nelda 1123564**
 
-Welcome to my Homework 2 project on Data Structures! In this repository, you'll find solutions to four intriguing problems that demonstrate the power and versatility of data structures in Python. Each problem is not only a challenge but also a practical application of concepts like binary trees, heaps, and priority queues. Let's dive into the details!
-
 ## Table of Contents
 - [Question 1: Binary Tree - Find the Diameter of a Binary Tree](#question-1-binary-tree---find-the-diameter-of-a-binary-tree)
 - [Question 2: Heap Sort - Build a Priority Queue for Tasks](#question-2-heap-sort---build-a-priority-queue-for-tasks)
 - [Question 3: Merge K Sorted Arrays Using Min Priority Queue](#question-3-merge-k-sorted-arrays-using-min-priority-queue)
 - [Question 4: Schedule Tasks with Deadlines Using Max Priority Queue](#question-4-schedule-tasks-with-deadlines-using-max-priority-queue)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Question 1: Binary Tree - Find the Diameter of a Binary Tree
-In this challenge, we calculate the **diameter** of a binary tree, defined as the longest path between any two nodes. The program allows you to build the tree using level-order input, where `-1` represents null nodes. We implement an efficient recursive function to compute the diameter.
+Write a program to calculate the **diameter**  of a binary tree. The diameter of a binary tree is the length of the longest path between any two nodes in the tree. The path may or may not pass through the root.
 
 ### Key Features:
 - Level-order construction of the binary tree
