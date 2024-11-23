@@ -25,7 +25,6 @@ struct CompareTask {
 int main() {
     priority_queue<Task, vector<Task>, CompareTask> pq; // Max heap for tasks
 
-    // Changed input
     pq.push(Task("Email", 25));
     pq.push(Task("Homework", 15));
     pq.push(Task("Meeting", 30));
