@@ -26,7 +26,7 @@ vector<int> mergeKSortedArrays(const vector<vector<int>>& arrays) {
         minHeap.pop(); // Remove it from the heap
     }
 
-    return result; // Return the merged sorted array
+    return result; //Return the merged sorted array
 }
 
 int main() {
