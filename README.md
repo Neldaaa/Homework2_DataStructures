@@ -10,12 +10,12 @@
 ## Question 1: Binary Tree - Find the Diameter of a Binary Tree
 Write a program to calculate the **diameter**  of a binary tree. The diameter of a binary tree is the length of the longest path between any two nodes in the tree. The path may or may not pass through the root.
 
-### Key Features:
-- Level-order construction of the binary tree
-- Efficient diameter calculation using recursion
+You are required to:
+- Build the binary tree using level-order input. Use -1 to represent null nodes.
+- Implement a function to calculate the diameter of the binary tree efficiently using recursion.
 
 ## Question 2: Heap Sort - Build a Priority Queue for Tasks
-This program manages a **task priority queue** using a max heap. Each task has a name and a priority level, allowing you to:
+Write a program to manage a task priority queue using a **max heap**. Each task has a name and a priority level. 
 - **Add a Task**: Insert a new task with a specified priority.
 - **Get the Highest Priority Task**: Remove and return the task with the highest priority.
 - **Display Remaining Tasks**: Print all tasks in descending order of priority.
