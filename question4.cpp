@@ -42,7 +42,6 @@ pair<int, vector<int>> scheduleTasks(vector<Task>& tasks) {
 }
 
 int main() {
-    // Changed input
     vector<Task> tasks = {{120, 2}, {90, 1}, {60, 2}, {30, 1}};
     auto [profit, scheduledTasks] = scheduleTasks(tasks);
 
